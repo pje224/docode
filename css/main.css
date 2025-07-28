@@ -62,12 +62,53 @@ a {
   display: block;
   /* width: 100%; */
   line-height: 60px;
-  background-color: #fff;
+  font-weight: bold;
 }
 .gnb > li > a:hover {
   background-color: #333;
   color: #fff;
 }
 /* 비주얼 */
+figure {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-color: #333;
+  padding-top: 250px;
+}
+figure > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* 가로를 기준으로 잡아라 > object-fit : cover */
+  object-fit: cover;
+  opacity: 0.3;
+}
+figure .inner h2 {
+  font: 120px/1 "arial";
+  color: #fff;
+  margin-bottom: 20px;
+}
+figure .inner p {
+  font: 16px/1.4 "arial";
+  color: #888;
+  margin-bottom: 60px;
+}
+figure .inner a {
+  width: 400px;
+  display: block;
+  border: 1px solid #bbb;
+  font: bold 12px/30px "arial";
+  color: #fff;
+  text-align: center;
+  transition: all 0.3s;
+}
+figure .inner a:hover {
+  background-color: #bbb;
+  color: #333;
+}
 /* 컨텐츠 */
 /* 하단 */
