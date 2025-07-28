@@ -17,10 +17,57 @@ a {
   position: relative;
   width: 1180px;
   margin: auto;
-  background-color: bisque;
+  /* background-color: whitesmoke; */
 }
 /* 전체 레이아웃 */
 /* 상단 */
+.header {
+  width: 100%;
+}
+.header .inner {
+  height: 120px;
+  /* background-color: aqua; */
+}
+/* 상단 위 */
+.header-top {
+  height: 60px;
+  /* background-color: antiquewhite; */
+}
+.util {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding-top: 15px;
+}
+.util > li > a {
+  font: 13px/1 "arial";
+}
+/* 상단 아래 */
+.header-bt {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+}
+.gnb {
+  display: flex;
+  width: 800px;
+  text-align: center;
+}
+.gnb > li {
+  width: calc(100% / 5);
+}
+.gnb > li > a {
+  display: block;
+  /* width: 100%; */
+  line-height: 60px;
+  background-color: #fff;
+}
+.gnb > li > a:hover {
+  background-color: #333;
+  color: #fff;
+}
 /* 비주얼 */
 /* 컨텐츠 */
 /* 하단 */
