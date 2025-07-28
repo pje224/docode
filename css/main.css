@@ -12,3 +12,15 @@ a {
   color: #333;
   text-decoration: none;
 }
+/* 공통 영역 */
+.inner {
+  position: relative;
+  width: 1180px;
+  margin: auto;
+  background-color: bisque;
+}
+/* 전체 레이아웃 */
+/* 상단 */
+/* 비주얼 */
+/* 컨텐츠 */
+/* 하단 */
