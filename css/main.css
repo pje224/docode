@@ -139,5 +139,13 @@ section h2 {
 .pic img {
   width: 100%;
 }
-
+.news h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.news p {
+  color: #888;
+  font: 16px/1.4 "arial";
+}
 /* 하단 */
